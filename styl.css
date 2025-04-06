@@ -1,0 +1,24 @@
+
+body {
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  color: green;
+}
+input,select {
+  width: 500px;
+  padding: 8px;
+  margin: 5px 0;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+}
+
+  input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
